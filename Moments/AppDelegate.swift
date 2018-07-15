@@ -15,7 +15,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        // prender l'integralité de l'ecran
+        window = UIWindow(frame: UIScreen.main.bounds)
+        // le point de depart de l'application et visible
+        window?.makeKeyAndVisible()
+        // viewController racine qui sera demarre en premier
+        window?.rootViewController = ViewController()
+        
         return true
     }
 
