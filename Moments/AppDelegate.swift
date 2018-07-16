@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // le point de depart de l'application et visible
         window?.makeKeyAndVisible()
         // viewController racine qui sera demarre en premier
-        window?.rootViewController = ViewController()
+        window?.rootViewController = TabBarController()
         
         return true
     }
