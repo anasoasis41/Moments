@@ -24,6 +24,14 @@ class PhotoDetaiController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // si c'est navigation de tableview, cacher le bouton retour
+        if navigationController != nil {
+            retourBtn.isHidden = true
+        } else {
+            retourBtn.isHidden = false
+        }
+        
         if photo != nil {
             nomLabel.text = "De: " + photo!.nom
             descLabel.text = photo!.desc
@@ -37,6 +45,7 @@ class PhotoDetaiController: UIViewController {
     }
     
     @IBAction func retoutAction(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
     }
     
 
