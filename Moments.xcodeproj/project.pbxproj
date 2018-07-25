@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		189ED4A52104B57D004ECEF5 /* MomentTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189ED4A32104B57D004ECEF5 /* MomentTableCell.swift */; };
+		189ED4A62104B57D004ECEF5 /* MomentTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189ED4A42104B57D004ECEF5 /* MomentTableCell.xib */; };
+		189ED4A82104C0FA004ECEF5 /* ImageCoinArrondi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189ED4A72104C0FA004ECEF5 /* ImageCoinArrondi.swift */; };
+		189ED4AB2104D3F5004ECEF5 /* MomentCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189ED4A92104D3F5004ECEF5 /* MomentCollectionCell.swift */; };
+		189ED4AC2104D3F5004ECEF5 /* MomentCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189ED4AA2104D3F5004ECEF5 /* MomentCollectionCell.xib */; };
 		18E081B420FD6359004903F8 /* CollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E081B220FD6359004903F8 /* CollectionController.swift */; };
 		18E081B520FD6359004903F8 /* CollectionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E081B320FD6359004903F8 /* CollectionController.xib */; };
 		18E081B820FD64FA004903F8 /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E081B620FD64FA004903F8 /* TableController.swift */; };
@@ -20,6 +25,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		189ED4A32104B57D004ECEF5 /* MomentTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentTableCell.swift; sourceTree = "<group>"; };
+		189ED4A42104B57D004ECEF5 /* MomentTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MomentTableCell.xib; sourceTree = "<group>"; };
+		189ED4A72104C0FA004ECEF5 /* ImageCoinArrondi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCoinArrondi.swift; sourceTree = "<group>"; };
+		189ED4A92104D3F5004ECEF5 /* MomentCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentCollectionCell.swift; sourceTree = "<group>"; };
+		189ED4AA2104D3F5004ECEF5 /* MomentCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MomentCollectionCell.xib; sourceTree = "<group>"; };
 		18E081B220FD6359004903F8 /* CollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionController.swift; sourceTree = "<group>"; };
 		18E081B320FD6359004903F8 /* CollectionController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionController.xib; sourceTree = "<group>"; };
 		18E081B620FD64FA004903F8 /* TableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
@@ -57,6 +67,11 @@
 		18E081B020FD62DA004903F8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				189ED4A32104B57D004ECEF5 /* MomentTableCell.swift */,
+				189ED4A42104B57D004ECEF5 /* MomentTableCell.xib */,
+				189ED4A72104C0FA004ECEF5 /* ImageCoinArrondi.swift */,
+				189ED4A92104D3F5004ECEF5 /* MomentCollectionCell.swift */,
+				189ED4AA2104D3F5004ECEF5 /* MomentCollectionCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -162,6 +177,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				18E081B920FD64FA004903F8 /* TableController.xib in Resources */,
+				189ED4AC2104D3F5004ECEF5 /* MomentCollectionCell.xib in Resources */,
+				189ED4A62104B57D004ECEF5 /* MomentTableCell.xib in Resources */,
 				18F27CFA20FC0D36006390AB /* LaunchScreen.storyboard in Resources */,
 				18E081B520FD6359004903F8 /* CollectionController.xib in Resources */,
 				18F27CF720FC0D36006390AB /* Assets.xcassets in Resources */,
@@ -176,10 +193,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				18E081B820FD64FA004903F8 /* TableController.swift in Sources */,
+				189ED4A52104B57D004ECEF5 /* MomentTableCell.swift in Sources */,
 				18E081BB20FD659E004903F8 /* TabBarController.swift in Sources */,
 				18F27CF020FC0D32006390AB /* AppDelegate.swift in Sources */,
+				189ED4A82104C0FA004ECEF5 /* ImageCoinArrondi.swift in Sources */,
 				18E081B420FD6359004903F8 /* CollectionController.swift in Sources */,
 				18E081BF20FD6B88004903F8 /* BaseDePhotos.swift in Sources */,
+				189ED4AB2104D3F5004ECEF5 /* MomentCollectionCell.swift in Sources */,
 				18E081BD20FD6A87004903F8 /* Photo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
