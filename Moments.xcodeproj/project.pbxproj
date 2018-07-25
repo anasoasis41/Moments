@@ -12,6 +12,9 @@
 		189ED4A82104C0FA004ECEF5 /* ImageCoinArrondi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189ED4A72104C0FA004ECEF5 /* ImageCoinArrondi.swift */; };
 		189ED4AB2104D3F5004ECEF5 /* MomentCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189ED4A92104D3F5004ECEF5 /* MomentCollectionCell.swift */; };
 		189ED4AC2104D3F5004ECEF5 /* MomentCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189ED4AA2104D3F5004ECEF5 /* MomentCollectionCell.xib */; };
+		18A6856E2108A24B00F237F8 /* PhotoDetaiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A6856C2108A24B00F237F8 /* PhotoDetaiController.swift */; };
+		18A6856F2108A24B00F237F8 /* PhotoDetaiController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A6856D2108A24B00F237F8 /* PhotoDetaiController.xib */; };
+		18A685712108A56000F237F8 /* Ratio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A685702108A56000F237F8 /* Ratio.swift */; };
 		18E081B420FD6359004903F8 /* CollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E081B220FD6359004903F8 /* CollectionController.swift */; };
 		18E081B520FD6359004903F8 /* CollectionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E081B320FD6359004903F8 /* CollectionController.xib */; };
 		18E081B820FD64FA004903F8 /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E081B620FD64FA004903F8 /* TableController.swift */; };
@@ -30,6 +33,9 @@
 		189ED4A72104C0FA004ECEF5 /* ImageCoinArrondi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCoinArrondi.swift; sourceTree = "<group>"; };
 		189ED4A92104D3F5004ECEF5 /* MomentCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentCollectionCell.swift; sourceTree = "<group>"; };
 		189ED4AA2104D3F5004ECEF5 /* MomentCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MomentCollectionCell.xib; sourceTree = "<group>"; };
+		18A6856C2108A24B00F237F8 /* PhotoDetaiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetaiController.swift; sourceTree = "<group>"; };
+		18A6856D2108A24B00F237F8 /* PhotoDetaiController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoDetaiController.xib; sourceTree = "<group>"; };
+		18A685702108A56000F237F8 /* Ratio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ratio.swift; sourceTree = "<group>"; };
 		18E081B220FD6359004903F8 /* CollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionController.swift; sourceTree = "<group>"; };
 		18E081B320FD6359004903F8 /* CollectionController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionController.xib; sourceTree = "<group>"; };
 		18E081B620FD64FA004903F8 /* TableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
@@ -60,6 +66,7 @@
 			children = (
 				18E081BC20FD6A87004903F8 /* Photo.swift */,
 				18E081BE20FD6B88004903F8 /* BaseDePhotos.swift */,
+				18A685702108A56000F237F8 /* Ratio.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -84,6 +91,8 @@
 				18E081B620FD64FA004903F8 /* TableController.swift */,
 				18E081B720FD64FA004903F8 /* TableController.xib */,
 				18E081BA20FD659E004903F8 /* TabBarController.swift */,
+				18A6856C2108A24B00F237F8 /* PhotoDetaiController.swift */,
+				18A6856D2108A24B00F237F8 /* PhotoDetaiController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -182,6 +191,7 @@
 				18F27CFA20FC0D36006390AB /* LaunchScreen.storyboard in Resources */,
 				18E081B520FD6359004903F8 /* CollectionController.xib in Resources */,
 				18F27CF720FC0D36006390AB /* Assets.xcassets in Resources */,
+				18A6856F2108A24B00F237F8 /* PhotoDetaiController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,8 +206,10 @@
 				189ED4A52104B57D004ECEF5 /* MomentTableCell.swift in Sources */,
 				18E081BB20FD659E004903F8 /* TabBarController.swift in Sources */,
 				18F27CF020FC0D32006390AB /* AppDelegate.swift in Sources */,
+				18A6856E2108A24B00F237F8 /* PhotoDetaiController.swift in Sources */,
 				189ED4A82104C0FA004ECEF5 /* ImageCoinArrondi.swift in Sources */,
 				18E081B420FD6359004903F8 /* CollectionController.swift in Sources */,
+				18A685712108A56000F237F8 /* Ratio.swift in Sources */,
 				18E081BF20FD6B88004903F8 /* BaseDePhotos.swift in Sources */,
 				189ED4AB2104D3F5004ECEF5 /* MomentCollectionCell.swift in Sources */,
 				18E081BD20FD6A87004903F8 /* Photo.swift in Sources */,
